@@ -10,20 +10,24 @@
   </head>
   <body>
     <header>
-      Project 2 - Modal Window
+      <h1>Project 2 - Modal Window</h1>
 
-      <pre>
-        This project is part of Jonas Schmedtmann's course: 
+      <span>
+        This project is part of Jonas Schmedtmann's course:
 
-        <a href="https://www.udemy.com/course/the-complete-javascript-course/?kw=the+complete+java&src=sac">The Complete Javascript Course 2024: From Zero to Expert!</a>
-
-     </pre>
+        <a
+          href="https://www.udemy.com/course/the-complete-javascript-course/?kw=the+complete+java&src=sac"
+          >The Complete Javascript Course 2024: From Zero to Expert!</a
+        >
+      </span>
     </header>
     <main>
       <section class="section-modal">
-        <button class="btn" id="show-modal-1">Show Modal 1</button
-        ><button class="btn" id="show-modal-2">Show Modal 2</button
-        ><button class="btn" id="show-modal-3">Show Modal 3</button>
+        <div class="modal-button-container">
+          <button class="btn" id="show-modal">Show Modal 1</button
+          ><button class="btn" id="show-modal">Show Modal 2</button
+          ><button class="btn" id="show-modal">Show Modal 3</button>
+        </div>
 
         <div class="modal hidden">
           <div class="modal-content">
@@ -51,6 +55,15 @@
         </div>
       </section>
     </main>
+    <footer>
+      <h5>Made with ❤ by Sho'ayb</h5>
+      and
+      <a href="https://github.com/Sho-ayb/modal-window-jonas">source code</a>
+    </footer>
+
+    <!-- overlay darkens and blurs element on the screen when modal is shown -->
+
+    <div class="overlay hidden"></div>
 
     <script src="script.js"></script>
   </body>
