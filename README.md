@@ -14,7 +14,8 @@
 
 ## Project Title
 
-Modal Window By Jonas Schmedtmann
+Modal Window By Jonas Schmedtmann as part of the course:
+[The Complete Javascript Course 2024: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/?kw=the+complete+java&src=sac)
 
 ## Description
 
