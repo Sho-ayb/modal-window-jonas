@@ -33,3 +33,11 @@ buttonShowModal.forEach((button) => {
 buttonCloseModal.forEach((button) => {
   button.addEventListener('click', closeModal);
 });
+
+// Including an event listener to listen to keypress for an Escape key will also close the modal
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    closeModal();
+  }
+});
